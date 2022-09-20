@@ -5,7 +5,7 @@ function [H] = simulate_mutations(C,N,p)
     			out = rand(1,1);
 			if out < p
 				m = m +1;
-            end
+            		end
 		end
 		H(i) = m;
 	end
