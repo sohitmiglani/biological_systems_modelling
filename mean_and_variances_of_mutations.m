@@ -20,6 +20,6 @@ mean(vars);
 scatter(means,vars);
 hold on;
 X = 2000:2700;
-Y = X*4026531.84;
+Y = X*264756.819;
 plot(X,Y);
 hold off
